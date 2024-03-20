@@ -23,9 +23,9 @@ For MacOS, use [Homebrew](https://brew.sh), and run `brew install gradle`
 
 For Linux, use your package manager. (Eg: `sudo apt install gradle`, `sudo pacman -S gradle`, `sudo dnf install gradle`, etc)
 
-In your terminal, run these commands:
+### In your terminal, run these commands:
 
-Windows users:
+#### Windows users:
 ```sh
 git clone https://github.com/michaelScopic/WalksyCrystalOptimizer
 cd WalksyCrystalOptimizer
@@ -33,7 +33,7 @@ cd WalksyCrystalOptimizer
 gradlew.bat build
 ```
 
-MacOS/Linux users:
+#### MacOS/Linux users:
 
 ```sh
 git clone https://github.com/michaelScopic/WalksyCrystalOptimizer
