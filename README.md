@@ -1,16 +1,7 @@
-# WalksyCrystalOptimizer
-+ Allows for faster crystal placement
-+ Do NOT use my antiCrystalRefresh mod with this as it causes crystals to decrease TOO much
-+ Love from snrios
+# Walksy's Crystal Optimizer Legit
 
-![meowbah-meowbahh](https://github.com/Walksy/WalksyCrystalOptimizer/assets/69202220/00cf00a2-757c-471e-bad6-4ed8620c01e4)
+Fork of [Walksy's Crystal Optimizer](https://github.com/Walksy/WalksyCrystalOptimizer) but without the AC feature because they are considered cheating.
 
+I have no clue how to program in Java, so if this works maybe God does exist.
 
-<p align="left">
-	<img width=331 src="github/Review12.png" /> 
-	<img width=331 src="github/Review2.png" />
-</p>
-
-
-
-  
+![alt text](src/main/resources/assets/optimizer/icon.png)

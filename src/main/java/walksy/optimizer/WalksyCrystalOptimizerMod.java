@@ -34,10 +34,7 @@ import java.util.List;
 public class WalksyCrystalOptimizerMod implements ClientModInitializer {
     public static MinecraftClient mc;
 
-
-    /**
-     * just because his mod works, doesn't mean it should be banned - Walksy's Mother
-     */
+    // just because his mod works, doesn't mean it should be banned - Walksy's Mother
 
     @Override
     public void onInitializeClient() {
@@ -76,15 +73,16 @@ public class WalksyCrystalOptimizerMod implements ClientModInitializer {
         if (!mainHandStack.isOf(Items.END_CRYSTAL)) {
             return;
         }
+        // I think this is the Auto Crystal feature
         if (mc.options.useKey.isPressed()
                 && (isLookingAt(Blocks.OBSIDIAN, generalLookPos().getBlockPos())
                 || isLookingAt(Blocks.BEDROCK, generalLookPos().getBlockPos())))
         {
             sendInteractBlockPacket(generalLookPos().getBlockPos(), generalLookPos().getSide());
-            if (canPlaceCrystalServer(generalLookPos().getBlockPos())) {
+            /*if (canPlaceCrystalServer(generalLookPos().getBlockPos())) {
                 mc.player.swingHand(mc.player.getActiveHand());
-            }
-        }
+            }*/
+        } 
     }
 
 
@@ -162,7 +160,9 @@ public class WalksyCrystalOptimizerMod implements ClientModInitializer {
         return playerListEntry.getLatency();
     }
 
-    private static boolean canPlaceCrystalServer(BlockPos block) {
+  // I think this is the AutoCrystal feature, not sure.
+  
+  private static boolean canPlaceCrystalServer(BlockPos block) {
         BlockState blockState = mc.world.getBlockState(block);
         if (!blockState.isOf(Blocks.OBSIDIAN) && !blockState.isOf(Blocks.BEDROCK))
             return false;
@@ -174,5 +174,5 @@ public class WalksyCrystalOptimizerMod implements ClientModInitializer {
         double f = blockPos2.getZ();
         List<Entity> list = mc.world.getOtherEntities((Entity)null, new Box(d, e, f, d + 1.0D, e + 2.0D, f + 1.0D));
         return list.isEmpty();
-    }
+    } 
 }
