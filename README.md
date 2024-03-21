@@ -27,8 +27,8 @@ For Linux, use your package manager. (Eg: `sudo apt install gradle`, `sudo pacma
 
 #### Windows users:
 ```sh
-git clone https://github.com/michaelScopic/WalksyCrystalOptimizer
-cd WalksyCrystalOptimizer
+git clone https://github.com/michaelScopic/WalksyCrystalOptimizerLegit
+cd WalksyCrystalOptimizerLegit
 
 gradlew.bat build
 ```
@@ -36,8 +36,8 @@ gradlew.bat build
 #### MacOS/Linux users:
 
 ```sh
-git clone https://github.com/michaelScopic/WalksyCrystalOptimizer
-cd WalksyCrystalOptimizer
+git clone https://github.com/michaelScopic/WalksyCrystalOptimizerLegit
+cd WalksyCrystalOptimizerLegit
 
 gradlew build
 ```
