@@ -73,15 +73,22 @@ public class WalksyCrystalOptimizerMod implements ClientModInitializer {
         if (!mainHandStack.isOf(Items.END_CRYSTAL)) {
             return;
         }
-        // I think this is the Auto Crystal feature
+        
         if (mc.options.useKey.isPressed()
                 && (isLookingAt(Blocks.OBSIDIAN, generalLookPos().getBlockPos())
                 || isLookingAt(Blocks.BEDROCK, generalLookPos().getBlockPos())))
         {
             sendInteractBlockPacket(generalLookPos().getBlockPos(), generalLookPos().getSide());
+            // These lines below is the Auto Crystal feature. I commented these out to remove that feature.
             /*if (canPlaceCrystalServer(generalLookPos().getBlockPos())) {
                 mc.player.swingHand(mc.player.getActiveHand());
             }*/
+            
+            /*  Basically what the above if-statement does is if you are looking at bedrock/obsidian
+                (and holding a crystal), it will send a hand swing packet to the server saying that you 
+                placed an end crystal (even though you really didn't). This is considered cheating by 
+                many servers, hence why this optimizer is commonly banned.
+            */
         } 
     }
 
