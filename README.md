@@ -1,5 +1,7 @@
 # Walksy's Crystal Optimizer Legit
 
+![icon](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/assets/67214805/96114b0e-da4e-417c-abed-7dc279acddb1)
+
 Fork of [Walksy's Crystal Optimizer](https://github.com/Walksy/WalksyCrystalOptimizer) but without the AC feature because it's considered cheating.
 
 I have no clue how to program in Java, so if this works maybe God does exist.
