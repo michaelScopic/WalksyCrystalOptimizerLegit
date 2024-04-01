@@ -6,17 +6,42 @@ Fork of [Walksy's Crystal Optimizer](https://github.com/Walksy/WalksyCrystalOpti
 
 I have no clue how to program in Java, so if this works maybe God does exist.
 
+
+## Preview
+
 Short video showing the difference between the original optimizer and mine:
 
-https://github.com/michaelScopic/WalksyCrystalOptimizer/assets/67214805/81ea7a01-3438-4d68-ba60-9ed50d2b854b
+[COOKING UP BETTER PREVIEW SOON!]
 
+## Installing
+
+To install this mod, you need a few things:
+
+1. Any Minecraft version with at least 1.19
+2. [Fabric Mod Loader](https://fabricmc.net/use/installer/) (You will also need the Fabric API of course.)
+
+Download the mod from the [Releases page](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/releases), and drag it into your mods folder.
+
+Launch the game and kill your opponents! Enjoy.
+
+## Bugs, issues, suggestions, or requests
+
+### Bugs/issues
+Bugs/issues can be reported by making an [issue ticket](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/issues). Please do your best to describe what's happening.
+
+### Suggestions/requests
+Suggestions and requests can also be made with the [issue tickets](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/issues). Please note that I am no where near fluent with Java, so any crazy requests will probably be denied (sorry). 
+
+**I'm not the best at noticing issues on GitHub, so if I don't respond in a timely manner, please DM me on [Discord](https://github.com/michaelScopic#discord).**
+
+## -- EXPERTS ONLY PAST HERE --
 ## Building from source (optional)
 
 If you want to compile from source because  you just want to build it or if you don't trust my precompiled package, here's how to do it.
 
 To build this mod from source you need a couple of things.
 
-- `git`
+- `git`  (The Git CLI interface [eg: `git clone`, `git pull`, etc])
 - Gradle
 
 To install Gradle on Windows, install [Scoop](https://scoop.sh/) and then run `scoop install gradle`.
