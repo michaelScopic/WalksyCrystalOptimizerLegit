@@ -6,12 +6,18 @@ Fork of [Walksy's Crystal Optimizer](https://github.com/Walksy/WalksyCrystalOpti
 
 I have no clue how to program in Java, so if this works maybe God does exist.
 
+## Table of Contents
+
+1. [Preview video](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit?tab=readme-ov-file#preview)
+2. [Installation](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit?tab=readme-ov-file#installing)
+3. [Bugs/suggestions reporting](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit?tab=readme-ov-file#bugs-issues-suggestions-or-requests)
+4. [Compiling from src (EXPERTS)](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit?tab=readme-ov-file#building-from-source-optional)
 
 ## Preview
 
 Short video showing the difference between the original optimizer and mine:
 
-[COOKING UP BETTER PREVIEW SOON!]
+**[COOKING UP BETTER PREVIEW SOON!]**
 
 ## Installing
 
@@ -19,6 +25,7 @@ To install this mod, you need a few things:
 
 1. Any Minecraft version with at least 1.19
 2. [Fabric Mod Loader](https://fabricmc.net/use/installer/) (You will also need the Fabric API of course.)
+3. Any other mod you want to add, as long as they are compatible with each other.
 
 Download the mod from the [Releases page](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/releases), and drag it into your mods folder.
 
