@@ -12,7 +12,7 @@ I have no clue how to program in Java, so if this works maybe God does exist.
 2. [Installation](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit?tab=readme-ov-file#installing)
 3. [Bugs/suggestions reporting](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit?tab=readme-ov-file#bugs-issues-suggestions-or-requests)
 4. [Compiling from src (EXPERTS)](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit?tab=readme-ov-file#building-from-source-optional)
-
+5. [Contributing](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit?tab=readme-ov-file#contributing)
 ## Preview
 
 Short video showing the difference between the original optimizer and mine:
@@ -52,7 +52,8 @@ If you want to compile from source because  you just want to build it or if you 
 
 To build this mod from source you need a couple of things.
 
-- `git`  (The Git CLI interface [eg: `git clone`, `git pull`, etc])
+- `git`  (The Git CLI interface [eg: `git clone`, `git pull`, etc]) \*
+   - \* Technically optional, you could just download this repo as a [`.zip` file](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/archive/refs/heads/master.zip) without needing Git.
 - Gradle
 
 To install Gradle on Windows, install [Scoop](https://scoop.sh/) and then run `scoop install gradle`.
@@ -81,3 +82,11 @@ gradlew build
 ```
 
 Output `.jar` will be placed in `./build/libs/`.
+
+## Contributing
+
+Pull requests (PR's) are accepted. 
+
+Make a fork of this repository, make your changes, and create a pull request. I will try to review it as soon as I can.
+
+Do not waste my time with these either. I am expecting you to have tested your changes prior to creating a PR. I'm also expecting no trolling or bullshit changes; if I feel like you are wasting my time I'll just reject your PR.
