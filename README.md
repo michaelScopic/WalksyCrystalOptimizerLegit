@@ -21,6 +21,10 @@ Short video showing the difference between the original optimizer and mine:
 
 ## Installing
 
+### Pre-warning 
+
+**By downloading this mod straight from the releases page, you trust that I haven't modified the binaries before releasing them (which I haven't). If you do not trust me, compile from source. Instructions are past this section.**
+
 To install this mod, you need a few things:
 
 1. Any Minecraft version with at least 1.19
