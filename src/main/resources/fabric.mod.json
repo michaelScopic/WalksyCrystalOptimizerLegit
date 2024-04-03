@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "walksycrystaloptimizer",
+  "id": "walksycrystaloptimizerlegit",
   "version": "${version}",
 
-  "name": "Walksy Optimizer",
+  "name": "Walksy Optimizer LEGIT",
   "description": "[Legit version] Allows you to place crystals much faster",
   "authors": [
     "Walksy",
     "Michael_Scopic"
   ],
   "contact": {
-    "homepage": "https://github.com/Walksy"
+    "homepage": "https://github.com/michaelScopic"
   },
 
   "icon": "assets/optimizer/icon.png",
