@@ -53,7 +53,7 @@ If you want to compile from source because  you just want to build it or if you 
 To build this mod from source you need a couple of things.
 
 - `git`  (The Git CLI interface [eg: `git clone`, `git pull`, etc]) \*
-   - \* Technically optional, you could just download this repo as a [`.zip` file](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/archive/refs/heads/master.zip) without needing Git.
+   - \* Technically optional, you could just download this repo as a [`.zip` file](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/archive/refs/heads/master.zip) (and then extract it) without needing Git.
 - Gradle
 
 To install Gradle on Windows, install [Scoop](https://scoop.sh/) and then run `scoop install gradle`.
