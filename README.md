@@ -15,9 +15,9 @@ I have no clue how to program in Java, so if this works maybe God does exist.
 5. [Contributing](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit?tab=readme-ov-file#contributing)
 ## Preview
 
-Short video showing the difference between the original optimizer and mine:
+https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/assets/67214805/addadc4f-6a11-45d6-baf2-a6f80df185b6
 
-**[COOKING UP BETTER PREVIEW SOON!]**
+
 
 ## Installing
 
