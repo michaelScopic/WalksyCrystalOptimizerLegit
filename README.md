@@ -29,7 +29,8 @@ To install this mod, you need a few things:
 
 1. Any Minecraft version with at least 1.19
 2. [Fabric Mod Loader](https://fabricmc.net/use/installer/) (You will also need the Fabric API of course.)
-3. Any other mod you want to add, as long as they are compatible with each other.
+3. [MidnightLib](https://www.curseforge.com/minecraft/mc-mods/midnightlib)
+4. Any other mod you want to add, as long as they are compatible with each other.
 
 Download the mod from the [Releases page](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/releases), and drag it into your mods folder.
 
