@@ -4,7 +4,7 @@
 
 Fork of [Walksy's Crystal Optimizer](https://github.com/Walksy/WalksyCrystalOptimizer) but without the AC feature because it's considered cheating.
 
-I have no clue how to program in Java, so if this works maybe God does exist.
+I have no clue how to program in Java, so if this works maybe God does exist. I'm joking I love Jesus.
 
 ## Table of Contents
 
@@ -31,10 +31,11 @@ To install this mod, you need a few things:
 2. [Fabric Mod Loader](https://fabricmc.net/use/installer/) (You will also need the Fabric API of course.)
 3. [MidnightLib](https://www.curseforge.com/minecraft/mc-mods/midnightlib)
 4. Any other mod you want to add, as long as they are compatible with each other.
+    - **Note:** I do not know of any incompatibilities with Midnight Lib and this mod. If you have errors, it's probably not because of this mod.
 
 Download the mod from the [Releases page](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/releases), and drag it into your mods folder.
 
-Launch the game and kill your opponents! Enjoy.
+Launch the game and spin the block on the opps!! Joking I'm a white city boy so I can't talk like that. Just launch the game and you're good.
 
 ## Bugs, issues, suggestions, or requests
 
@@ -42,7 +43,7 @@ Launch the game and kill your opponents! Enjoy.
 Bugs/issues can be reported by making an [issue ticket](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/issues). Please do your best to describe what's happening.
 
 ### Suggestions/requests
-Suggestions and requests can also be made with the [issue tickets](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/issues). Please note that I am no where near fluent with Java, so any crazy requests will probably be denied (sorry). 
+Suggestions and requests can also be made with the [issue tickets](https://github.com/michaelScopic/WalksyCrystalOptimizerLegit/issues). Please note that I am nowhere near fluent in Java, so any crazy requests will probably be denied (sorry). 
 
 **I'm not the best at noticing issues on GitHub, so if I don't respond in a timely manner, please DM me on [Discord](https://github.com/michaelScopic#discord).**
 
