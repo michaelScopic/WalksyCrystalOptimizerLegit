@@ -3,15 +3,13 @@
   "id": "walksycrystaloptimizerlegit",
   "version": "${version}",
 
-  "name": "Walksy Optimizer LEGIT",
-  "description": "[Legit version] Allows you to place crystals much faster",
+  "name": "Advanced Motion Blur",
+  "description": "An infinitely customizable motion blur mod.",
   "authors": [
+    "_synx__",
     "Walksy",
     "Michael_Scopic"
   ],
-  "contact": {
-    "homepage": "https://github.com/michaelScopic"
-  },
 
   "icon": "assets/optimizer/icon.png",
 

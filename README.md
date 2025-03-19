@@ -36,6 +36,8 @@ Download the mod from the [Releases page](https://github.com/michaelScopic/Walks
 
 Launch the game and kill your opponents! Enjoy.
 
+Toggle the mod on and off with `/motionblur`.
+
 ## Bugs, issues, suggestions, or requests
 
 ### Bugs/issues
@@ -70,7 +72,7 @@ For Linux, use your package manager. (Eg: `sudo apt install gradle`, `sudo pacma
 git clone https://github.com/michaelScopic/WalksyCrystalOptimizerLegit
 cd WalksyCrystalOptimizerLegit
 
-gradlew.bat build
+./gradlew.bat build
 ```
 
 #### MacOS/Linux users:

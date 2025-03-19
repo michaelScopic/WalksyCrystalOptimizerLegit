@@ -73,7 +73,7 @@ public class WalksyCrystalOptimizerMod implements ClientModInitializer {
         if (!mainHandStack.isOf(Items.END_CRYSTAL)) {
             return;
         }
-        
+
         if (mc.options.useKey.isPressed()
                 && (isLookingAt(Blocks.OBSIDIAN, generalLookPos().getBlockPos())
                 || isLookingAt(Blocks.BEDROCK, generalLookPos().getBlockPos())))
@@ -83,13 +83,13 @@ public class WalksyCrystalOptimizerMod implements ClientModInitializer {
             /*if (canPlaceCrystalServer(generalLookPos().getBlockPos())) {
                 mc.player.swingHand(mc.player.getActiveHand());
             }*/
-            
+
             /*  Basically what the above if-statement does is if you are looking at bedrock/obsidian
-                (and holding a crystal), it will send a hand swing packet to the server saying that you 
-                placed an end crystal (even though you really didn't). This is considered cheating by 
+                (and holding a crystal), it will send a hand swing packet to the server saying that you
+                placed an end crystal (even though you really didn't). This is considered cheating by
                 many servers, hence why this optimizer is commonly banned.
             */
-        } 
+        }
     }
 
 
@@ -167,8 +167,6 @@ public class WalksyCrystalOptimizerMod implements ClientModInitializer {
         return playerListEntry.getLatency();
     }
 
-  // I think this is the AutoCrystal feature, not sure.
-  
   private static boolean canPlaceCrystalServer(BlockPos block) {
         BlockState blockState = mc.world.getBlockState(block);
         if (!blockState.isOf(Blocks.OBSIDIAN) && !blockState.isOf(Blocks.BEDROCK))
@@ -181,5 +179,5 @@ public class WalksyCrystalOptimizerMod implements ClientModInitializer {
         double f = blockPos2.getZ();
         List<Entity> list = mc.world.getOtherEntities((Entity)null, new Box(d, e, f, d + 1.0D, e + 2.0D, f + 1.0D));
         return list.isEmpty();
-    } 
+    }
 }
